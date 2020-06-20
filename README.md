@@ -1,9 +1,9 @@
-## Application-pour-la-gestion-des-reservations-des-vols-aeriens-partie-2
+# Application-pour-la-gestion-des-reservations-des-vols-aeriens-partie-2
 technologie utilisée : #HTML5 #CSS3 #Bootstrap #Javascript #Ajax #PHP #MySQL #model_MVC
 
 comment ouvrir ce projet? 
 
-## 1. Téléchargement & installation de wampserver :
+# 1. Téléchargement & installation de wampserver :
 
 Télécharger WAMP depuis le site officiel. Plus bas dans la page, cliquez sur le lien de téléchargement. Vous n’êtes pas obligé(e) de remplir les informations dans la pop-up, vous pouvez directement cliquez sur « Passer au téléchargement direct« .
 lien : https://www.wampserver.com/
@@ -17,7 +17,7 @@ Si vous obtenez l’erreur « MSVRC110.dll« , installez le librairie suivante :
 
 https://www.microsoft.com/fr-fr/download/details.aspx?id=30679
 
-## 2. Exécution de WampServer :
+# 2. Exécution de WampServer :
 
 L'exécution de WampServer ne déclenche pas grand-chose de visible, tout au plus la console qui s'ouvre et se referme rapidement. Mais si vous regardez dans votre zone de notification, à droite de la barre des tâches, vous verrez une icône avec le logo de WampServer devenir verte. Laissez traîner votre souris sur cette icône : une info-bulle vous indique que tous les services sont lancés.
 Donc le raccourci vers WampServer sert à cela : démarrer tous les services de votre serveur web/MySQL.
@@ -26,27 +26,27 @@ L’icône est verte quand tous les services sont démarrés, rouge lorsqu’ils
 
 Pour accéder phpmyadmin, vous devez démarrer votre navigateur (Chrome / firefox) et taper « localhost » dans la barre d'adresse http://localhost/phpmyadmin/ .
 par défaut le  username est root sans mot de passe .
-## 3. Importer ce projet sous votre WAMP serveur : 
+# 3. Importer ce projet sous votre WAMP serveur : 
 Une fois le projet téléchargée, décompressez-le. Cliquez ensuite sur WAMP > Répertoire www.
 
 www correspond à la racine de votre site, c’est-à-dire localhost/.
 
 Déplacez votre dossier dans ce répertoire.
 volapppart-2/database/
-## 4. Configurer la base de données MySQL via PHPMyAdmin sous WAMP
-Une fois votre projet est installé sur votre serveur, le projet demande une base de données pour s’installer ainsi qu’un identifiant.
+# 4. Configurer la base de données MySQL via PHPMyAdmin sous WAMP
+## Une fois votre projet est installé sur votre serveur, le projet demande une base de données pour s’installer ainsi qu’un identifiant.
 Cliquez encore (clic gauche) sur WAMP > phpMyAdmin.
-Par défaut, l’utilisateur est root, il n’y a pas de mot de passe.
-En haut à gauche, cliquez sur « Nouvelle base de données« avec le nom « gestion_reservations »
-Cliquez sur l’onglet « Importer ».
-Cliquez sur le bouton « Afficher » de la section « Fichier à importer » (File to import).
-Votre navigateur vous invitera à repérer sur votre ordinateur le fichier de la base de données.
-le fichier est exist dans ce projet dans le dossier <<DataBase>> se le nom "" .
-Une fois le fichier repéré et sélectionné, le champ « Emplacement du fichier texte » (Location of the text file) affichera le chemin du fichier de la base de données. Cliquez sur le bouton « Exécuter ».
-Une fois le téléversement du fichier terminé, les données et la structure qu’il contient seront immédiatement disponibles pour utilisation dans la base de données.
+## Par défaut, l’utilisateur est root, il n’y a pas de mot de passe.
+## En haut à gauche, cliquez sur « Nouvelle base de données« avec le nom « gestion_reservations »
+## Cliquez sur l’onglet « Importer ».
+## Cliquez sur le bouton « Afficher » de la section « Fichier à importer » (File to import).
+## Votre navigateur vous invitera à repérer sur votre ordinateur le fichier de la base de données.
+## le fichier est exist dans ce projet dans le dossier <<DataBase>> se le nom "gestion_reservations.sql".
+## Une fois le fichier repéré et sélectionné, le champ « Emplacement du fichier texte » (Location of the text file) affichera le chemin ## du fichier de la base de données. Cliquez sur le bouton « Exécuter ».
+## Une fois le téléversement du fichier terminé, les données et la structure qu’il contient seront immédiatement disponibles pour ## utilisation dans la base de données.
 
-## 5 - Showtime !!!!
-connectez-vous sur votre site internet.
+# 5 - Showtime !!!!
+## connectez-vous sur votre site internet.
 http://localhost/volapppart-2/identification.php
 * pour une accéss admin : 
 email    : admin@gmail.com
