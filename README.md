@@ -61,8 +61,8 @@ http://localhost/volapppart-2/identification.php
 email    : admin@gmail.com
 password : Admin
 * pour une accéss utilisateur :
-email    : user@user.com 
-password : user
+email    : jack@gmail.com 
+password : jack
 
 
 ## 2
