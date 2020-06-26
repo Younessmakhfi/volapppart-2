@@ -49,9 +49,9 @@ Votre navigateur vous invitera à repérer sur votre ordinateur le fichier de la
 ## 7-
 le fichier est exist dans ce projet dans le dossier <<DataBase>> se le nom "gestion_reservations.sql".
 ## 8-
-Une fois le fichier repéré et sélectionné, le champ « Emplacement du fichier texte » (Location of the text file) affichera le chemin ## du fichier de la base de données. Cliquez sur le bouton « Exécuter ».
+Une fois le fichier repéré et sélectionné, le champ « Emplacement du fichier texte » (Location of the text file) affichera le chemin  du fichier de la base de données. Cliquez sur le bouton « Exécuter ».
 ## 9-
-  Une fois le téléversement du fichier terminé, les données et la structure qu’il contient seront immédiatement disponibles pour ## utilisation dans la base de données.
+  Une fois le téléchargement du fichier terminé, les données et la structure qu’il contient seront immédiatement disponibles pour  utilisation dans la base de données.
 
 # Showtime !!!!
 ## 1
